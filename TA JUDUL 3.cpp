@@ -4,8 +4,10 @@ using namespace std;
 
 int main() {
     // Daftar nama yang sudah diurutkan secara alfabet
-    string nama[] = {"Adit", "Eris", "Jayo", "Maxwel", "Nayaka", "Rara", "Satriyo"};
-    int n = 7;
+    string nama[] = {"Bintang", "Edbert", "Faqih", "Fany", "Hengky", "Ica", "Jehan", "Joshua", "Kadek", "Kanaya", "Kholifah", 
+        "Ledi", "Maxwel", "Nayla", "Putri h", "Putri n", "Rafi", "Regina", "Revalinda", "Rifki", "Riffa", "Ridho",
+        "Rizky a", "Rizky n", "Salsabila", "Satriyo", "Valerie", "Vivian", "Joshua", "Yaza", "Yostiar", "Zidane",};
+    int n = 31;
     string target;
     int low = 0, high = n - 1;
     int mid;
